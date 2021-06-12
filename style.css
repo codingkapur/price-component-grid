@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(188, 230, 238);
+}
+
+.container {
+  max-width: 60%;
+  width: 700px;
+  margin: 3rem auto;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+}
+@media (max-width: 750px) {
+    html {
+        font-size: 12px;
+    }
+  .container {
+    max-width: 90%;
+    grid-template-columns: 1fr;
+  }
+}
+
+.section {
+  padding: 2rem 3rem 2rem 3rem;
+}
+.section-1 {
+  grid-column: 1/ -1;
+  width: 100%;
+}
+.main-heading {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+}
+.subtext-1 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+}
+.subtext-2 {
+  color: hsl(218, 22%, 67%);
+  word-spacing: 1px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+}
+
+.section-2 {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+  width: 100%;
+}
+.section-2__heading {
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.section-2__subtext-1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.price-highlight {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+}
+.section-2__subtext-2 {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-2__signup-btn {
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+}
+
+.section-3 {
+  color: #fff;
+  background-color: #30cdca;
+  width: 100%;
+
+}
+
+.section-3__heading {
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.section-3__subtext {
+  word-spacing: 1px;
+  line-height: 1.4;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
